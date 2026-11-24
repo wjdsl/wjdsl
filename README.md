@@ -1,13 +1,12 @@
 # Yoon Jeong Eun 👋
 
-### Backend & AI Service Developer
+### AI / LLM & Backend Developer
 
-사용자가 실제로 사용하는 서비스를 만드는 과정에 관심이 있습니다.  
-현재 **Python과 FastAPI를 중심으로 백엔드 개발 역량을 쌓고 있으며**,  
-LLM을 활용한 인터랙티브 AI 서비스 개발을 공부하고 있습니다.
+캐릭터 기반 대화형 AI에 관심이 있습니다.  
+현재 **팀 프로젝트에서 캐릭터 페르소나 설계, 응답 일관성 제어, LLM 평가를 맡고 있으며**,  
+Python과 FastAPI로 백엔드를 개발해 왔습니다.
 
-특히 **AI × Entertainment × User Experience**의 접점에 관심이 있으며,  
-아이디어를 실제 동작하는 서비스로 구현하는 것을 좋아합니다.
+관심 분야: **Role-playing LLM · Persona Consistency · LLM Evaluation**
 
 ---
 
@@ -16,6 +15,10 @@ LLM을 활용한 인터랙티브 AI 서비스 개발을 공부하고 있습니�
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+
+### AI / LLM
+![Gemini](https://img.shields.io/badge/Gemini%20API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 
 ### Backend & Database
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -36,6 +39,15 @@ LLM을 활용한 인터랙티브 AI 서비스 개발을 공부하고 있습니�
 
 ## 🚀 Projects
 
+### [MINGLE](https://github.com/wjdsl/mingle) · 팀 프로젝트 (AI/LLM 담당)
+캐릭터 IP와 LLM 페르소나를 결합한 대화형 스토리 서비스
+
+- 세 작품의 캐릭터 페르소나와 시스템 프롬프트 설계
+- 말투·설정·세계관에서 벗어난 응답을 검사해 다시 생성하는 응답 제어 구현
+- 역할 변경 요청, 세계관 밖 질문 등을 넣는 행동 테스트와 서비스 경로 평가 도구 구현
+- Gemini 3.1 vs 3.5 Flash-Lite 비교: 의도 분류 정확도 76.2% → 83.6%, 대체 응답 비율 9.9% → 4.6%
+- 위기 신호 입력을 LLM 호출 전에 걸러 상담 번호를 안내하는 안전 처리
+
 ### M-Stamp
 뮤지컬 티켓을 활용한 온라인 도장판 웹 프로토타입
 
@@ -55,7 +67,6 @@ FastAPI 기반 REST API 프로젝트
 
 ## 🌱 Currently
 
+- Character hallucination and persona consistency in role-playing LLMs
+- LLM evaluation for character-based dialogue
 - Backend development with Python & FastAPI
-- LLM-based interactive AI services
-- Data Analysis & Machine Learning
-- Algorithm problem solving with Python
